@@ -1,3 +1,11 @@
+"""
+Iron-Tomli-W
+Fork of Tomli-W for Iron Python 2
+Reluctant Iron Python 2 user: james.parrott<at>proton.me
+Aims to be compatible with Iron Python 2.7 but 
+has not been extensively tested.
+"""
+
 # from __future__ import annotations
 
 # from collections.abc import Generator, Mapping
