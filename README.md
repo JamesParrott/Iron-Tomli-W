@@ -1,6 +1,15 @@
-[![Build Status](https://github.com/hukkin/tomli-w/workflows/Tests/badge.svg?branch=master)](https://github.com/hukkin/tomli-w/actions?query=workflow%3ATests+branch%3Amaster+event%3Apush)
-[![codecov.io](https://codecov.io/gh/hukkin/tomli-w/branch/master/graph/badge.svg)](https://codecov.io/gh/hukkin/tomli-w)
-[![PyPI version](https://img.shields.io/pypi/v/tomli-w)](https://pypi.org/project/tomli-w)
+# Iron-Tomli-W
+
+A fork of Tomli-W for Iron Python 2
+
+- **Reluctant Iron Python 2 user**: [James Parrott](https://github.com/JamesParrott)
+- **Version**: 1.0.0
+- **Date**: 25 April, 2023
+ - **License**: [MIT](https://github.com/GeospatialPython/pyshp/blob/master/LICENSE.TXT)
+ - 
+## Installation<a name="installation"></a>
+
+For the time being, manually copy `_write.py` and `__init__.py` into a folder called `iron-tomli-w` into a path (and append that to sys.path if it's not already there)
 
 # Tomli-W
 
@@ -29,10 +38,6 @@ Tomli-W is a Python library for writing [TOML](https://toml.io).
 It is a write-only counterpart to [Tomli](https://github.com/hukkin/tomli),
 which is a read-only TOML parser.
 Tomli-W is fully compatible with [TOML v1.0.0](https://toml.io/en/v1.0.0).
-
-## Installation<a name="installation"></a>
-
-For the time being, manually copy `_write.py` and `__init__.py` into a folder called `iron-tomli-w` into a path (and append that to sys.path if it's not already there)
 
 ## Usage<a name="usage"></a>
 
