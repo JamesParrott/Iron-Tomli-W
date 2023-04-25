@@ -32,9 +32,7 @@ Tomli-W is fully compatible with [TOML v1.0.0](https://toml.io/en/v1.0.0).
 
 ## Installation<a name="installation"></a>
 
-```bash
-pip install tomli-w
-```
+For the time being, manually copy `_write.py` and `__init__.py` into a folder called `iron-tomli-w` into a path (and append that to sys.path if it's not already there)
 
 ## Usage<a name="usage"></a>
 
