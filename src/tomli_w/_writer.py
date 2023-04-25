@@ -42,7 +42,7 @@ def dump(
 ):
     ctx = Context(multiline_strings, {})
     for chunk in gen_table_chunks(__obj, ctx, name=""):
-        __fp.write(chunk.encode())
+        __fp.write(chunk.encode(encoding = 'utf8'))
 
 
 # def dumps(__obj: dict[str, Any], *, multiline_strings: bool = False) -> str:
